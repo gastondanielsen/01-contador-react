@@ -1,0 +1,44 @@
+.center {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+    border-radius: 200px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contador {
+    font-size: 40px;
+    text-align: center;
+}
+.boton {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: turquoise;
+}
+.autor {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    background-color: skyblue;
+    font-weight: bold;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
